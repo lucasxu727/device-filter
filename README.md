@@ -1,8 +1,7 @@
 # Device Filter
 
 A simple program desgined to determine the amount of active users connected to a network from a list of connected devices.
-
-checkout out [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) on how to write markdown
+The goal is to cultivate a set of data that is an accurate representation to how many people are connected, rather than devices, so that this set of cultivated data can be used to accurately train models that need this data.
 
 ## Usage
 
@@ -14,8 +13,6 @@ Format:
 The expected output will a json file including the information of distinct connected users
 
 ## How it works
-
-The goal is to cultivate a set of data that is an accurate representation to how many people are connected, rather than devices, so that this set of cultivated data can be used to accurately train models that need this data.
 
 1. The inputted json fil is converted into a pandas object
 
